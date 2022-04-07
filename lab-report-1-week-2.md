@@ -6,7 +6,8 @@ Download and install vscode from [here](https://code.visualstudio.com/download):
 
 ## Logging in to ieng6
 
-To log into your course-specific account on ieng6, use ssh to remotely connect to the ieng6 server using your active directory username and password:
+To log into your course-specific account on ieng6, use ssh to remotely connect to the ieng6 server using your active directory using your username and password:
+
 ![ssh](media/ssh.png)
 
 If you want you can edit your ~/.ssh/config file to automatically login using the alias `15l` like so:
@@ -53,3 +54,5 @@ scp WhereAmI.java 15l:~/ && ssh 15l "javac WhereAmI.java; java WhereAmI"
 ```
 
 This will move WhereAmI.java to the home directory on 15l, ssh into 15l and compile and run the file on the server
+
+![where](media/where.png)
