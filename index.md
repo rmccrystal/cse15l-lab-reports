@@ -29,18 +29,11 @@ Ordered
 3. Integer molestie lorem at massa
 
 
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
+`code`
 
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
+```
+code
+```
 
 
 ## Table
