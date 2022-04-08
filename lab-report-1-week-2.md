@@ -8,6 +8,10 @@ Download and install vscode from [here](https://code.visualstudio.com/download):
 
 To log into your course-specific account on ieng6, use ssh to remotely connect to the ieng6 server using your active directory using your username and password:
 
+```
+ssh cs15lsp22atj@ieng6.ucsd.edu
+```
+
 ![ssh](media/ssh.png)
 
 If you want you can edit your ~/.ssh/config file to automatically login using the alias `15l` like so:
